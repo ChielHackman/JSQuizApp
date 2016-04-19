@@ -1,0 +1,35 @@
+body {
+  overflow-x: hidden;
+  text-align: center;
+}
+
+#mainContent {
+  background-color: #025A78;
+  padding: 25px;
+  border: 2px solid #444444;
+  border-radius: 10px;
+  color: #000000;
+  font-weight: bold;
+  box-shadow: 10px 20px 20px 10px #444444;
+}
+
+#questionDiv {
+	display: none;
+}
+
+#answerDiv {
+	display: none;
+}
+
+#footer {
+  height: 40px;
+}
+
+#footer .container {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
