@@ -103,6 +103,7 @@ function incorrectGuess(i) {
 function question(i) {
     $('#questionDiv').fadeOut("slow");
     mainContent.html('<div id="questionDiv">' +
+        '<h1>JavaScript Quiz</h1>' +
         '<h2>Question ' + (i + 1) + '</h2>' +
         '<h4>' + allQuestions[i].question + '</h4>' +
         '<input type="radio" name="questionChoices" value="' + allQuestions[i].choices[0] + '" checked="yes">' + allQuestions[i].choices[0] + '</input><br />' +
